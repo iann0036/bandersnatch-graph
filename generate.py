@@ -60,4 +60,5 @@ dot_output += "\n}"
 with open('output.dot', 'w') as f:
     f.write(dot_output)
 
-os.system('/usr/local/bin/dot -Grankdir=LR -Tpng output.dot -o output.png')
+os.system('/usr/local/bin/dot -Tpng output.dot -o output.png')
+os.system('/usr/local/bin/dot -Grankdir=LR -Tpng output.dot -o output-vert.png')
