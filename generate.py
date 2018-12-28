@@ -33,10 +33,12 @@ for cp_key, cp in choice_points.items():
         #urllib.request.urlretrieve(url, "%s.webp" % cp_key)
         #os.system('/usr/local/bin/convert %s.webp %s.png' % (cp_key, cp_key))
 
-    dot_output += "    NODE%s [label=<<TABLE><TR><TD><IMG SRC=\"%s.png\"/></TD></TR><TR><TD>%s</TD></TR></TABLE>>, fillcolor=white, style=filled];\n" % (sgnode(cp_key), cp_key, cp['description'])
-    pprint.pprint(cp)
+    if cp_key[0:2] != "SS": # ignore splitscreen
+        dot_output += "    NODE%s [label=<<TABLE><TR><TD><IMG SRC=\"%s.png\"/></TD></TR><TR><TD>%s</TD></TR></TABLE>>, fillcolor=white, style=filled];\n" % (sgnode(cp_key), cp_key, cp['description'] + " - NODE" + cp_key)
 
 dot_output += "\n"
+
+edges = []
 for mbs_key, mbs in moments_by_segment.items():
     for moment in mbs:
         if 'choices' in moment:
@@ -44,11 +46,14 @@ for mbs_key, mbs in moments_by_segment.items():
                 sid = choice['id']
                 if 'segmentId' in choice:
                     sid = choice['segmentId']
+                
+                if mbs_key[0:2] != "SS":
+                    if 'text' in choice:
+                        edges.append("    NODE%s -> NODE%s [label=\"%s\"]\n" % (sgnode(mbs_key), sgnode(sid), choice['text']))
+                    else:
+                        edges.append("    NODE%s -> NODE%s\n" % (sgnode(mbs_key), sgnode(sid)))
 
-                if 'text' in choice:
-                    dot_output += "    NODE%s -> NODE%s [label=\"%s\"]\n" % (sgnode(mbs_key), sgnode(sid), choice['text'])
-                else:
-                    dot_output += "    NODE%s -> NODE%s\n" % (sgnode(mbs_key), sgnode(sid))
+dot_output += ''.join(set(edges))
 
 dot_output += "\n}"
 

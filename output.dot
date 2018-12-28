@@ -1,488 +1,321 @@
 digraph bandersnatch {
     node [shape=plaintext]
     
-    NODE2GChoice [label=<<TABLE><TR><TD><IMG SRC="2G.png"/></TD></TR><TR><TD>Which Record?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEPACStudyChoice [label=<<TABLE><TR><TD><IMG SRC="3AF2.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEPACStudyChoice [label=<<TABLE><TR><TD><IMG SRC="3AF1.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS20 [label=<<TABLE><TR><TD><IMG SRC="SS20.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS21 [label=<<TABLE><TR><TD><IMG SRC="SS21.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS22 [label=<<TABLE><TR><TD><IMG SRC="SS22.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3S [label=<<TABLE><TR><TD><IMG SRC="3Xcd.png"/></TD></TR><TR><TD>Pills</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z62f.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3Vx [label=<<TABLE><TR><TD><IMG SRC="3Vx.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z62e.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEZ62d [label=<<TABLE><TR><TD><IMG SRC="Z62d.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFake7D [label=<<TABLE><TR><TD><IMG SRC="Fake7D.png"/></TD></TR><TR><TD>Fake7D</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEZ62c [label=<<TABLE><TR><TD><IMG SRC="Z62c.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Vff.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE1H [label=<<TABLE><TR><TD><IMG SRC="1H.png"/></TD></TR><TR><TD>Job Offer</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEVisitHaynesChoice [label=<<TABLE><TR><TD><IMG SRC="ZQ.png"/></TD></TR><TR><TD>Photo or Book?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE1G [label=<<TABLE><TR><TD><IMG SRC="1G.png"/></TD></TR><TR><TD>Job Offer</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEVisitHaynesChoice [label=<<TABLE><TR><TD><IMG SRC="ZP.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE5AG2 [label=<<TABLE><TR><TD><IMG SRC="5AG2.png"/></TD></TR><TR><TD>Kill Colin?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS16 [label=<<TABLE><TR><TD><IMG SRC="SS16.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS17 [label=<<TABLE><TR><TD><IMG SRC="SS17.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE1S [label=<<TABLE><TR><TD><IMG SRC="1S.png"/></TD></TR><TR><TD>Throw Tea or Shout?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE1R [label=<<TABLE><TR><TD><IMG SRC="1R.png"/></TD></TR><TR><TD>Throw Tea or Shout?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS19 [label=<<TABLE><TR><TD><IMG SRC="SS19.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z62b.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z62a.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE2BChoice [label=<<TABLE><TR><TD><IMG SRC="2Bt1.png"/></TD></TR><TR><TD>Throw Tea or Shout?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Vfs.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS11 [label=<<TABLE><TR><TD><IMG SRC="SS11.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS12 [label=<<TABLE><TR><TD><IMG SRC="SS12.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS14 [label=<<TABLE><TR><TD><IMG SRC="SS14.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS15 [label=<<TABLE><TR><TD><IMG SRC="SS15.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3Nx [label=<<TABLE><TR><TD><IMG SRC="3Nx.png"/></TD></TR><TR><TD>Who Jumps?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE2BChoice [label=<<TABLE><TR><TD><IMG SRC="2B.png"/></TD></TR><TR><TD>Which Record?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE2GChoice [label=<<TABLE><TR><TD><IMG SRC="2Gp1.png"/></TD></TR><TR><TD>Throw Tea or Shout?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AH2.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Wbs.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS110 [label=<<TABLE><TR><TD><IMG SRC="1HB.png"/></TD></TR><TR><TD>Job Offer Redux</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AH1.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEWhiteBearChoice [label=<<TABLE><TR><TD><IMG SRC="5A.png"/></TD></TR><TR><TD>Kill Dad?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE5V0 [label=<<TABLE><TR><TD><IMG SRC="5QA.png"/></TD></TR><TR><TD>Tucker Call</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE1QA [label=<<TABLE><TR><TD><IMG SRC="1QA.png"/></TD></TR><TR><TD>Throw Tea or Shout?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE8J1 [label=<<TABLE><TR><TD><IMG SRC="8JB1.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3N [label=<<TABLE><TR><TD><IMG SRC="3N.png"/></TD></TR><TR><TD>Who Jumps?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE8J1 [label=<<TABLE><TR><TD><IMG SRC="8JB2.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE1Qnw1Qtt [label=<<TABLE><TR><TD><IMG SRC="1Qtt.png"/></TD></TR><TR><TD>Talk About Mum?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFollowColinChoice [label=<<TABLE><TR><TD><IMG SRC="3M.png"/></TD></TR><TR><TD>Take LSD?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3C [label=<<TABLE><TR><TD><IMG SRC="3L.png"/></TD></TR><TR><TD>Outside Dr. Haynes</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3C [label=<<TABLE><TR><TD><IMG SRC="3J.png"/></TD></TR><TR><TD>Outside Dr. Haynes</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE5AD [label=<<TABLE><TR><TD><IMG SRC="5AD.png"/></TD></TR><TR><TD>Respond to Kitty</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEVisitHaynesChoice [label=<<TABLE><TR><TD><IMG SRC="3R.png"/></TD></TR><TR><TD>Bite Nails or Pull Ear?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3P [label=<<TABLE><TR><TD><IMG SRC="3P.png"/></TD></TR><TR><TD>Who Jumps?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3Z [label=<<TABLE><TR><TD><IMG SRC="3Z.png"/></TD></TR><TR><TD>Photo or Book?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3S [label=<<TABLE><TR><TD><IMG SRC="3X.png"/></TD></TR><TR><TD>Pills</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3VA.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Wbf.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="ZK1.png"/></TD></TR><TR><TD>Enter Code</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="ZK2.png"/></TD></TR><TR><TD>Enter Code</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE5AG [label=<<TABLE><TR><TD><IMG SRC="5AG.png"/></TD></TR><TR><TD>Kill Colin?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="ZK3.png"/></TD></TR><TR><TD>Enter Code</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3VB.png"/></TD></TR><TR><TD>Photo or Book?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AB2.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AB1.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AJ2.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AJ1.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE5AD2 [label=<<TABLE><TR><TD><IMG SRC="5AD2.png"/></TD></TR><TR><TD>Respond to Kitty</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3Xxa_3Xxc [label=<<TABLE><TR><TD><IMG SRC="3Xxc.png"/></TD></TR><TR><TD>Pills</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE7B [label=<<TABLE><TR><TD><IMG SRC="7B.png"/></TD></TR><TR><TD>Tell Him More</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE7A [label=<<TABLE><TR><TD><IMG SRC="7A.png"/></TD></TR><TR><TD>Try To Explain</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3Xxa_3Xxc [label=<<TABLE><TR><TD><IMG SRC="3Xxa.png"/></TD></TR><TR><TD>Pills</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3Ax [label=<<TABLE><TR><TD><IMG SRC="3Ax.png"/></TD></TR><TR><TD>Throw Tea or Shout?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEJFDChoice [label=<<TABLE><TR><TD><IMG SRC="3AK1.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE7H [label=<<TABLE><TR><TD><IMG SRC="7H.png"/></TD></TR><TR><TD>Chop or Kick?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE7D [label=<<TABLE><TR><TD><IMG SRC="7D.png"/></TD></TR><TR><TD>Fight or Run?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE5V0 [label=<<TABLE><TR><TD><IMG SRC="5Q.png"/></TD></TR><TR><TD>Tucker Call</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS7 [label=<<TABLE><TR><TD><IMG SRC="SS7.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS8 [label=<<TABLE><TR><TD><IMG SRC="SS8.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS9 [label=<<TABLE><TR><TD><IMG SRC="SS9.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS3 [label=<<TABLE><TR><TD><IMG SRC="SS3.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS4 [label=<<TABLE><TR><TD><IMG SRC="SS4.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS6 [label=<<TABLE><TR><TD><IMG SRC="SS6.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS110 [label=<<TABLE><TR><TD><IMG SRC="1GB.png"/></TD></TR><TR><TD>Job Offer Redux</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS1 [label=<<TABLE><TR><TD><IMG SRC="SS1.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS110 [label=<<TABLE><TR><TD><IMG SRC="1GA.png"/></TD></TR><TR><TD>Job Offer Redux</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE5V_5VA [label=<<TABLE><TR><TD><IMG SRC="5V.png"/></TD></TR><TR><TD>Bury or Chop?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS2 [label=<<TABLE><TR><TD><IMG SRC="SS2.png"/></TD></TR><TR><TD>Split Screen</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE6B [label=<<TABLE><TR><TD><IMG SRC="6B.png"/></TD></TR><TR><TD>Phone Call</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODELettersPACSChoice [label=<<TABLE><TR><TD><IMG SRC="6A.png"/></TD></TR><TR><TD>Phone Call</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODESS110 [label=<<TABLE><TR><TD><IMG SRC="1HA.png"/></TD></TR><TR><TD>Job Offer Redux</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE2BChoice [label=<<TABLE><TR><TD><IMG SRC="2Bp1.png"/></TD></TR><TR><TD>Throw Tea or Shout?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Vbs.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Vbf.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE1PA [label=<<TABLE><TR><TD><IMG SRC="1PA.png"/></TD></TR><TR><TD>Job Offer Redux</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE1Qnw1Qtt [label=<<TABLE><TR><TD><IMG SRC="1Qnw.png"/></TD></TR><TR><TD>Talk About Mum?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEZ4cd [label=<<TABLE><TR><TD><IMG SRC="Z4cd.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z61e.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="3AD3.png"/></TD></TR><TR><TD>Enter Code</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEZ61d [label=<<TABLE><TR><TD><IMG SRC="Z61d.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEZ4 [label=<<TABLE><TR><TD><IMG SRC="Z4.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEZ61c [label=<<TABLE><TR><TD><IMG SRC="Z61c.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z61b.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEZ1 [label=<<TABLE><TR><TD><IMG SRC="Z1.png"/></TD></TR><TR><TD>Throw Tea or Shout?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z61f.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z61a.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="3AD2.png"/></TD></TR><TR><TD>Enter Code</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="3AD1.png"/></TD></TR><TR><TD>Enter Code</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEZE [label=<<TABLE><TR><TD><IMG SRC="ZE.png"/></TD></TR><TR><TD>Photo or Book?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEZD [label=<<TABLE><TR><TD><IMG SRC="ZD.png"/></TD></TR><TR><TD>Photo or Book?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEThrowTeaChoice [label=<<TABLE><TR><TD><IMG SRC="4C2.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEZB [label=<<TABLE><TR><TD><IMG SRC="ZB.png"/></TD></TR><TR><TD>Talk About Mum?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE1E [label=<<TABLE><TR><TD><IMG SRC="1E.png"/></TD></TR><TR><TD>Which Tape?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEVisitHaynesChoice [label=<<TABLE><TR><TD><IMG SRC="3Xac.png"/></TD></TR><TR><TD>Pills</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE1D [label=<<TABLE><TR><TD><IMG SRC="1D.png"/></TD></TR><TR><TD>Which Tape?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEVisitHaynesChoice [label=<<TABLE><TR><TD><IMG SRC="3Xa.png"/></TD></TR><TR><TD>Pills</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="ZK.png"/></TD></TR><TR><TD>Enter Code</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE1A [label=<<TABLE><TR><TD><IMG SRC="1A.png"/></TD></TR><TR><TD>Which Cereal?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEThrowTeaChoice [label=<<TABLE><TR><TD><IMG SRC="4C1.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE3C [label=<<TABLE><TR><TD><IMG SRC="ZJ.png"/></TD></TR><TR><TD>Photo or Book?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="ZH.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFollowColinChoice [label=<<TABLE><TR><TD><IMG SRC="ZG.png"/></TD></TR><TR><TD>Who Jumps?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="3AD.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AC2.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AC.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AB.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="ZHw6.png"/></TD></TR><TR><TD>Photo or Book?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AH.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Wff.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEPACStudyChoice [label=<<TABLE><TR><TD><IMG SRC="3AF.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEJFDChoice [label=<<TABLE><TR><TD><IMG SRC="3AK2.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE2GA [label=<<TABLE><TR><TD><IMG SRC="2GA.png"/></TD></TR><TR><TD>Are You Sure?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AC1.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE2GChoice [label=<<TABLE><TR><TD><IMG SRC="2Gt1.png"/></TD></TR><TR><TD>Throw Tea or Shout?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEPAXChoice [label=<<TABLE><TR><TD><IMG SRC="3AL2.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Wfs.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEPAXChoice [label=<<TABLE><TR><TD><IMG SRC="3AL1.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEPAXChoice [label=<<TABLE><TR><TD><IMG SRC="3AL.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEJFDChoice [label=<<TABLE><TR><TD><IMG SRC="3AK.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE8K [label=<<TABLE><TR><TD><IMG SRC="8K.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AJ.png"/></TD></TR><TR><TD>Fatal Error</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE8J [label=<<TABLE><TR><TD><IMG SRC="8J.png"/></TD></TR><TR><TD>Go with Mum?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEDestroyComputerChoice [label=<<TABLE><TR><TD><IMG SRC="4D2.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODEDestroyComputerChoice [label=<<TABLE><TR><TD><IMG SRC="4D1.png"/></TD></TR><TR><TD>Who's There?</TD></TR></TABLE>>, fillcolor=white, style=filled];
-    NODE5V_5VA [label=<<TABLE><TR><TD><IMG SRC="5VA.png"/></TD></TR><TR><TD>Bury or Chop?</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE2GChoice [label=<<TABLE><TR><TD><IMG SRC="2G.png"/></TD></TR><TR><TD>Which Record? - NODE2G</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEPACStudyChoice [label=<<TABLE><TR><TD><IMG SRC="3AF2.png"/></TD></TR><TR><TD>Who's There? - NODE3AF2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEPACStudyChoice [label=<<TABLE><TR><TD><IMG SRC="3AF1.png"/></TD></TR><TR><TD>Who's There? - NODE3AF1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3S [label=<<TABLE><TR><TD><IMG SRC="3Xcd.png"/></TD></TR><TR><TD>Pills - NODE3Xcd</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z62f.png"/></TD></TR><TR><TD>Who's There? - NODEZ62f</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3Vx [label=<<TABLE><TR><TD><IMG SRC="3Vx.png"/></TD></TR><TR><TD>Fatal Error - NODE3Vx</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z62e.png"/></TD></TR><TR><TD>Who's There? - NODEZ62e</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEZ62d [label=<<TABLE><TR><TD><IMG SRC="Z62d.png"/></TD></TR><TR><TD>Who's There? - NODEZ62d</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFake7D [label=<<TABLE><TR><TD><IMG SRC="Fake7D.png"/></TD></TR><TR><TD>Fake7D - NODEFake7D</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEZ62c [label=<<TABLE><TR><TD><IMG SRC="Z62c.png"/></TD></TR><TR><TD>Who's There? - NODEZ62c</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Vff.png"/></TD></TR><TR><TD>Fatal Error - NODE3Vff</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE1H [label=<<TABLE><TR><TD><IMG SRC="1H.png"/></TD></TR><TR><TD>Job Offer - NODE1H</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEVisitHaynesChoice [label=<<TABLE><TR><TD><IMG SRC="ZQ.png"/></TD></TR><TR><TD>Photo or Book? - NODEZQ</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE1G [label=<<TABLE><TR><TD><IMG SRC="1G.png"/></TD></TR><TR><TD>Job Offer - NODE1G</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEVisitHaynesChoice [label=<<TABLE><TR><TD><IMG SRC="ZP.png"/></TD></TR><TR><TD>Fatal Error - NODEZP</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE5AG2 [label=<<TABLE><TR><TD><IMG SRC="5AG2.png"/></TD></TR><TR><TD>Kill Colin? - NODE5AG2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE1S [label=<<TABLE><TR><TD><IMG SRC="1S.png"/></TD></TR><TR><TD>Throw Tea or Shout? - NODE1S</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE1R [label=<<TABLE><TR><TD><IMG SRC="1R.png"/></TD></TR><TR><TD>Throw Tea or Shout? - NODE1R</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z62b.png"/></TD></TR><TR><TD>Who's There? - NODEZ62b</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z62a.png"/></TD></TR><TR><TD>Who's There? - NODEZ62a</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE2BChoice [label=<<TABLE><TR><TD><IMG SRC="2Bt1.png"/></TD></TR><TR><TD>Throw Tea or Shout? - NODE2Bt1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Vfs.png"/></TD></TR><TR><TD>Fatal Error - NODE3Vfs</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3Nx [label=<<TABLE><TR><TD><IMG SRC="3Nx.png"/></TD></TR><TR><TD>Who Jumps? - NODE3Nx</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE2BChoice [label=<<TABLE><TR><TD><IMG SRC="2B.png"/></TD></TR><TR><TD>Which Record? - NODE2B</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE2GChoice [label=<<TABLE><TR><TD><IMG SRC="2Gp1.png"/></TD></TR><TR><TD>Throw Tea or Shout? - NODE2Gp1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AH2.png"/></TD></TR><TR><TD>Who's There? - NODE3AH2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Wbs.png"/></TD></TR><TR><TD>Fatal Error - NODE3Wbs</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODESS110 [label=<<TABLE><TR><TD><IMG SRC="1HB.png"/></TD></TR><TR><TD>Job Offer Redux - NODE1HB</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AH1.png"/></TD></TR><TR><TD>Who's There? - NODE3AH1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEWhiteBearChoice [label=<<TABLE><TR><TD><IMG SRC="5A.png"/></TD></TR><TR><TD>Kill Dad? - NODE5A</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE5V0 [label=<<TABLE><TR><TD><IMG SRC="5QA.png"/></TD></TR><TR><TD>Tucker Call - NODE5QA</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE1QA [label=<<TABLE><TR><TD><IMG SRC="1QA.png"/></TD></TR><TR><TD>Throw Tea or Shout? - NODE1QA</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE8J1 [label=<<TABLE><TR><TD><IMG SRC="8JB1.png"/></TD></TR><TR><TD>Who's There? - NODE8JB1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3N [label=<<TABLE><TR><TD><IMG SRC="3N.png"/></TD></TR><TR><TD>Who Jumps? - NODE3N</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE8J1 [label=<<TABLE><TR><TD><IMG SRC="8JB2.png"/></TD></TR><TR><TD>Who's There? - NODE8JB2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE1Qnw1Qtt [label=<<TABLE><TR><TD><IMG SRC="1Qtt.png"/></TD></TR><TR><TD>Talk About Mum? - NODE1Qtt</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFollowColinChoice [label=<<TABLE><TR><TD><IMG SRC="3M.png"/></TD></TR><TR><TD>Take LSD? - NODE3M</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3C [label=<<TABLE><TR><TD><IMG SRC="3L.png"/></TD></TR><TR><TD>Outside Dr. Haynes - NODE3L</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3C [label=<<TABLE><TR><TD><IMG SRC="3J.png"/></TD></TR><TR><TD>Outside Dr. Haynes - NODE3J</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE5AD [label=<<TABLE><TR><TD><IMG SRC="5AD.png"/></TD></TR><TR><TD>Respond to Kitty - NODE5AD</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEVisitHaynesChoice [label=<<TABLE><TR><TD><IMG SRC="3R.png"/></TD></TR><TR><TD>Bite Nails or Pull Ear? - NODE3R</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3P [label=<<TABLE><TR><TD><IMG SRC="3P.png"/></TD></TR><TR><TD>Who Jumps? - NODE3P</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3Z [label=<<TABLE><TR><TD><IMG SRC="3Z.png"/></TD></TR><TR><TD>Photo or Book? - NODE3Z</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3S [label=<<TABLE><TR><TD><IMG SRC="3X.png"/></TD></TR><TR><TD>Pills - NODE3X</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3VA.png"/></TD></TR><TR><TD>Fatal Error - NODE3VA</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Wbf.png"/></TD></TR><TR><TD>Fatal Error - NODE3Wbf</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="ZK1.png"/></TD></TR><TR><TD>Enter Code - NODEZK1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="ZK2.png"/></TD></TR><TR><TD>Enter Code - NODEZK2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE5AG [label=<<TABLE><TR><TD><IMG SRC="5AG.png"/></TD></TR><TR><TD>Kill Colin? - NODE5AG</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="ZK3.png"/></TD></TR><TR><TD>Enter Code - NODEZK3</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3VB.png"/></TD></TR><TR><TD>Photo or Book? - NODE3VB</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AB2.png"/></TD></TR><TR><TD>Who's There? - NODE3AB2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AB1.png"/></TD></TR><TR><TD>Who's There? - NODE3AB1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AJ2.png"/></TD></TR><TR><TD>Who's There? - NODE3AJ2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AJ1.png"/></TD></TR><TR><TD>Who's There? - NODE3AJ1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE5AD2 [label=<<TABLE><TR><TD><IMG SRC="5AD2.png"/></TD></TR><TR><TD>Respond to Kitty - NODE5AD2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3Xxa_3Xxc [label=<<TABLE><TR><TD><IMG SRC="3Xxc.png"/></TD></TR><TR><TD>Pills - NODE3Xxc</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE7B [label=<<TABLE><TR><TD><IMG SRC="7B.png"/></TD></TR><TR><TD>Tell Him More - NODE7B</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE7A [label=<<TABLE><TR><TD><IMG SRC="7A.png"/></TD></TR><TR><TD>Try To Explain - NODE7A</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3Xxa_3Xxc [label=<<TABLE><TR><TD><IMG SRC="3Xxa.png"/></TD></TR><TR><TD>Pills - NODE3Xxa</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3Ax [label=<<TABLE><TR><TD><IMG SRC="3Ax.png"/></TD></TR><TR><TD>Throw Tea or Shout? - NODE3Ax</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEJFDChoice [label=<<TABLE><TR><TD><IMG SRC="3AK1.png"/></TD></TR><TR><TD>Who's There? - NODE3AK1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE7H [label=<<TABLE><TR><TD><IMG SRC="7H.png"/></TD></TR><TR><TD>Chop or Kick? - NODE7H</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE7D [label=<<TABLE><TR><TD><IMG SRC="7D.png"/></TD></TR><TR><TD>Fight or Run? - NODE7D</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE5V0 [label=<<TABLE><TR><TD><IMG SRC="5Q.png"/></TD></TR><TR><TD>Tucker Call - NODE5Q</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODESS110 [label=<<TABLE><TR><TD><IMG SRC="1GB.png"/></TD></TR><TR><TD>Job Offer Redux - NODE1GB</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODESS110 [label=<<TABLE><TR><TD><IMG SRC="1GA.png"/></TD></TR><TR><TD>Job Offer Redux - NODE1GA</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE5V_5VA [label=<<TABLE><TR><TD><IMG SRC="5V.png"/></TD></TR><TR><TD>Bury or Chop? - NODE5V</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE6B [label=<<TABLE><TR><TD><IMG SRC="6B.png"/></TD></TR><TR><TD>Phone Call - NODE6B</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODELettersPACSChoice [label=<<TABLE><TR><TD><IMG SRC="6A.png"/></TD></TR><TR><TD>Phone Call - NODE6A</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODESS110 [label=<<TABLE><TR><TD><IMG SRC="1HA.png"/></TD></TR><TR><TD>Job Offer Redux - NODE1HA</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE2BChoice [label=<<TABLE><TR><TD><IMG SRC="2Bp1.png"/></TD></TR><TR><TD>Throw Tea or Shout? - NODE2Bp1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Vbs.png"/></TD></TR><TR><TD>Fatal Error - NODE3Vbs</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Vbf.png"/></TD></TR><TR><TD>Fatal Error - NODE3Vbf</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE1PA [label=<<TABLE><TR><TD><IMG SRC="1PA.png"/></TD></TR><TR><TD>Job Offer Redux - NODE1PA</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE1Qnw1Qtt [label=<<TABLE><TR><TD><IMG SRC="1Qnw.png"/></TD></TR><TR><TD>Talk About Mum? - NODE1Qnw</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEZ4cd [label=<<TABLE><TR><TD><IMG SRC="Z4cd.png"/></TD></TR><TR><TD>Fatal Error - NODEZ4cd</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z61e.png"/></TD></TR><TR><TD>Who's There? - NODEZ61e</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="3AD3.png"/></TD></TR><TR><TD>Enter Code - NODE3AD3</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEZ61d [label=<<TABLE><TR><TD><IMG SRC="Z61d.png"/></TD></TR><TR><TD>Who's There? - NODEZ61d</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEZ4 [label=<<TABLE><TR><TD><IMG SRC="Z4.png"/></TD></TR><TR><TD>Fatal Error - NODEZ4</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEZ61c [label=<<TABLE><TR><TD><IMG SRC="Z61c.png"/></TD></TR><TR><TD>Who's There? - NODEZ61c</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z61b.png"/></TD></TR><TR><TD>Who's There? - NODEZ61b</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEZ1 [label=<<TABLE><TR><TD><IMG SRC="Z1.png"/></TD></TR><TR><TD>Throw Tea or Shout? - NODEZ1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z61f.png"/></TD></TR><TR><TD>Who's There? - NODEZ61f</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEWhoThereChoice [label=<<TABLE><TR><TD><IMG SRC="Z61a.png"/></TD></TR><TR><TD>Who's There? - NODEZ61a</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="3AD2.png"/></TD></TR><TR><TD>Enter Code - NODE3AD2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="3AD1.png"/></TD></TR><TR><TD>Enter Code - NODE3AD1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEZE [label=<<TABLE><TR><TD><IMG SRC="ZE.png"/></TD></TR><TR><TD>Photo or Book? - NODEZE</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEZD [label=<<TABLE><TR><TD><IMG SRC="ZD.png"/></TD></TR><TR><TD>Photo or Book? - NODEZD</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEThrowTeaChoice [label=<<TABLE><TR><TD><IMG SRC="4C2.png"/></TD></TR><TR><TD>Who's There? - NODE4C2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEZB [label=<<TABLE><TR><TD><IMG SRC="ZB.png"/></TD></TR><TR><TD>Talk About Mum? - NODEZB</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE1E [label=<<TABLE><TR><TD><IMG SRC="1E.png"/></TD></TR><TR><TD>Which Tape? - NODE1E</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEVisitHaynesChoice [label=<<TABLE><TR><TD><IMG SRC="3Xac.png"/></TD></TR><TR><TD>Pills - NODE3Xac</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE1D [label=<<TABLE><TR><TD><IMG SRC="1D.png"/></TD></TR><TR><TD>Which Tape? - NODE1D</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEVisitHaynesChoice [label=<<TABLE><TR><TD><IMG SRC="3Xa.png"/></TD></TR><TR><TD>Pills - NODE3Xa</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="ZK.png"/></TD></TR><TR><TD>Enter Code - NODEZK</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE1A [label=<<TABLE><TR><TD><IMG SRC="1A.png"/></TD></TR><TR><TD>Which Cereal? - NODE1A</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEThrowTeaChoice [label=<<TABLE><TR><TD><IMG SRC="4C1.png"/></TD></TR><TR><TD>Who's There? - NODE4C1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE3C [label=<<TABLE><TR><TD><IMG SRC="ZJ.png"/></TD></TR><TR><TD>Photo or Book? - NODEZJ</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="ZH.png"/></TD></TR><TR><TD>Fatal Error - NODEZH</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFollowColinChoice [label=<<TABLE><TR><TD><IMG SRC="ZG.png"/></TD></TR><TR><TD>Who Jumps? - NODEZG</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEBookChoice [label=<<TABLE><TR><TD><IMG SRC="3AD.png"/></TD></TR><TR><TD>Fatal Error - NODE3AD</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AC2.png"/></TD></TR><TR><TD>Who's There? - NODE3AC2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AC.png"/></TD></TR><TR><TD>Fatal Error - NODE3AC</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AB.png"/></TD></TR><TR><TD>Fatal Error - NODE3AB</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="ZHw6.png"/></TD></TR><TR><TD>Photo or Book? - NODEZHw6</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AH.png"/></TD></TR><TR><TD>Fatal Error - NODE3AH</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Wff.png"/></TD></TR><TR><TD>Fatal Error - NODE3Wff</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEPACStudyChoice [label=<<TABLE><TR><TD><IMG SRC="3AF.png"/></TD></TR><TR><TD>Fatal Error - NODE3AF</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEJFDChoice [label=<<TABLE><TR><TD><IMG SRC="3AK2.png"/></TD></TR><TR><TD>Who's There? - NODE3AK2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE2GA [label=<<TABLE><TR><TD><IMG SRC="2GA.png"/></TD></TR><TR><TD>Are You Sure? - NODE2GA</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AC1.png"/></TD></TR><TR><TD>Who's There? - NODE3AC1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE2GChoice [label=<<TABLE><TR><TD><IMG SRC="2Gt1.png"/></TD></TR><TR><TD>Throw Tea or Shout? - NODE2Gt1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEPAXChoice [label=<<TABLE><TR><TD><IMG SRC="3AL2.png"/></TD></TR><TR><TD>Who's There? - NODE3AL2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFlushThemChoice [label=<<TABLE><TR><TD><IMG SRC="3Wfs.png"/></TD></TR><TR><TD>Fatal Error - NODE3Wfs</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEPAXChoice [label=<<TABLE><TR><TD><IMG SRC="3AL1.png"/></TD></TR><TR><TD>Who's There? - NODE3AL1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEPAXChoice [label=<<TABLE><TR><TD><IMG SRC="3AL.png"/></TD></TR><TR><TD>Fatal Error - NODE3AL</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEJFDChoice [label=<<TABLE><TR><TD><IMG SRC="3AK.png"/></TD></TR><TR><TD>Fatal Error - NODE3AK</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE8K [label=<<TABLE><TR><TD><IMG SRC="8K.png"/></TD></TR><TR><TD>Fatal Error - NODE8K</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEFamilyPhotoChoice [label=<<TABLE><TR><TD><IMG SRC="3AJ.png"/></TD></TR><TR><TD>Fatal Error - NODE3AJ</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE8J [label=<<TABLE><TR><TD><IMG SRC="8J.png"/></TD></TR><TR><TD>Go with Mum? - NODE8J</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEDestroyComputerChoice [label=<<TABLE><TR><TD><IMG SRC="4D2.png"/></TD></TR><TR><TD>Who's There? - NODE4D2</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODEDestroyComputerChoice [label=<<TABLE><TR><TD><IMG SRC="4D1.png"/></TD></TR><TR><TD>Who's There? - NODE4D1</TD></TR></TABLE>>, fillcolor=white, style=filled];
+    NODE5V_5VA [label=<<TABLE><TR><TD><IMG SRC="5VA.png"/></TD></TR><TR><TD>Bury or Chop? - NODE5VA</TD></TR></TABLE>>, fillcolor=white, style=filled];
 
-    NODE2GChoice -> NODE1R [label="PHAEDRA"]
-    NODE2GChoice -> NODE1S [label="THE BERMUDA TRIANGLE"]
-    NODEPACStudyChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEPACStudyChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEPACStudyChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEPACStudyChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODESS20 -> NODER5 [label="VISIT DR HAYNES"]
-    NODESS20 -> NODE3Nx [label="GO BACK"]
-    NODESS21 -> NODER6 [label="'PROGRAM & CONTROL'"]
-    NODESS21 -> NODE5H [label="KILL DAD"]
-    NODESS22 -> NODEnsgWhoThereChoice [label="WHO'S THERE?"]
-    NODESS22 -> NODE5H [label="KILL DAD"]
-    NODE2BChoice -> NODENo [label="NO"]
-    NODE3S -> NODEnsgThrowThemChoice [label="THROW THEM AWAY"]
-    NODE3S -> NODEnsgFlushThemChoice3X [label="FLUSH THEM"]
-    NODE2BChoice -> NODENo [label="NO"]
-    NODE2BChoice -> NODE3B [label="THROW TEA OVER COMPUTER"]
-    NODE2BChoice -> NODE3C [label="SHOUT AT DAD"]
-    NODEWhoThereChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEWhoThereChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODE3Vx -> NODE3Y [label="DESTROY COMPUTER"]
-    NODE3Vx -> NODE3Z [label="HIT DESK"]
-    NODES44A -> NODESS500 [label="TALK ABOUT MUM"]
-    NODES44A -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODEWhoThereChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEWhoThereChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODES44B -> NODESS500 [label="TALK ABOUT MUM"]
-    NODES44B -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODEZ62d -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEZ62d -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODE7D -> NODEYeah [label="YES"]
-    NODE7D -> NODEFYeah [label="FUCK YEAH"]
-    NODE7D -> NODE7L [label="LEAP THROUGH THE WINDOW"]
-    NODE7D -> NODE7H [label="FIGHT HER"]
-    NODEZ62c -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEZ62c -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEFlushThemChoice -> NODE3Y [label="DESTROY COMPUTER"]
     NODEFlushThemChoice -> NODE3Z [label="HIT DESK"]
-    NODE1H -> NODEnsg8AChoice [label="ACCEPT"]
-    NODE1H -> NODEnsg1Qnw1Qtt [label="REFUSE"]
-    NODEVisitHaynesChoice -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
-    NODEVisitHaynesChoice -> NODEnsgBookChoice [label="PICK UP BOOK"]
-    NODE1G -> NODEnsg8AChoice [label="ACCEPT"]
-    NODE1G -> NODEnsg1Qnw1Qtt [label="REFUSE"]
-    NODEVisitHaynesChoice -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEVisitHaynesChoice -> NODE3Z [label="HIT DESK"]
-    NODE5AG2 -> NODE5AH [label="LET HIM GO"]
-    NODE5AG2 -> NODE5AJ [label="KILL HIM"]
-    NODESS16 -> NODESS500 [label="TALK ABOUT MUM"]
-    NODESS16 -> NODE3Vx [label="GO BACK"]
-    NODESS17 -> NODESS510 [label="FOLLOW COLIN"]
-    NODESS17 -> NODE3Vx [label="GO BACK"]
-    NODE1S -> NODE3B [label="THROW TEA OVER COMPUTER"]
-    NODE1S -> NODE3C [label="SHOUT AT DAD"]
-    NODESS18 -> NODE3Vx [label="GO BACK"]
-    NODE1R -> NODE3B [label="THROW TEA OVER COMPUTER"]
-    NODE1R -> NODE3C [label="SHOUT AT DAD"]
-    NODESS19 -> NODESS500 [label="TALK ABOUT MUM"]
-    NODESS19 -> NODE3Nx [label="GO BACK"]
-    NODEWhoThereChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEWhoThereChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEWhoThereChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEWhoThereChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODE2BChoice -> NODENo [label="NO"]
-    NODE2BChoice -> NODE3B [label="THROW TEA OVER COMPUTER"]
-    NODE2BChoice -> NODE3C [label="SHOUT AT DAD"]
-    NODEFlushThemChoice -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEFlushThemChoice -> NODE3Z [label="HIT DESK"]
-    NODESS10 -> NODE1PA [label="GO BACK"]
-    NODESS11 -> NODEnsgSS110 [label="WORK AT TUCKERSOFT?"]
-    NODESS11 -> NODE3Ax [label="GO BACK"]
-    NODESS12 -> NODESS500 [label="TALK ABOUT MUM"]
-    NODESS12 -> NODE3Ax [label="GO BACK"]
-    NODESS13 -> NODE3Ax [label="GO BACK"]
-    NODESS14 -> NODESS500 [label="TALK ABOUT MUM"]
-    NODESS14 -> NODEnsgSS141 [label="GO BACK"]
-    NODESS15 -> NODESS510 [label="FOLLOW COLIN"]
-    NODESS15 -> NODEnsgSS151 [label="GO BACK"]
-    NODE3Nx -> NODE8L [label="STEFAN"]
-    NODE3Nx -> NODE3Q [label="COLIN"]
-    NODE2BChoice -> NODENo [label="NO"]
-    NODE2BChoice -> NODE1R [label="PHAEDRA"]
-    NODE2BChoice -> NODE1S [label="THE BERMUDA TRIANGLE"]
-    NODES35B -> NODEnsgWhoThereChoice [label="WHO'S THERE?"]
-    NODES35B -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODE2GChoice -> NODE3B [label="THROW TEA OVER COMPUTER"]
-    NODE2GChoice -> NODE3C [label="SHOUT AT DAD"]
     NODEFamilyPhotoChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEFamilyPhotoChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEFlushThemChoice -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEFlushThemChoice -> NODE3Z [label="HIT DESK"]
-    NODESS110 -> NODEnsg8AChoice [label="ACCEPT"]
-    NODESS110 -> NODEnsg1Q_rewatch [label="REFUSE"]
-    NODEFamilyPhotoChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEFamilyPhotoChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODES59A -> NODEnsgS59A0 [label="CHOP OR BURY?"]
-    NODES59A -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODES59B -> NODEnsgS59B0 [label="CHOP OR BURY?"]
-    NODES59B -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODES35A -> NODEnsgWhoThereChoice [label="WHO'S THERE?"]
-    NODES35A -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODEWhiteBearChoice -> NODE5H [label="KILL DAD"]
-    NODEWhiteBearChoice -> NODE5G [label="BACK OFF"]
-    NODE5V0 -> NODE5UA [label="YES"]
-    NODE5V0 -> NODE5TA [label="NO"]
-    NODE1QA -> NODE3B [label="THROW TEA OVER COMPUTER"]
-    NODE1QA -> NODE3C [label="SHOUT AT DAD"]
-    NODE8J1 -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODE8J1 -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODES34A -> NODESS510 [label="FOLLOW COLIN"]
-    NODES34A -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODE3N -> NODE8L [label="STEFAN"]
-    NODE3N -> NODE3Q [label="COLIN"]
-    NODE8J1 -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODE8J1 -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODES34B -> NODESS510 [label="FOLLOW COLIN"]
-    NODES34B -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODE1Qnw1Qtt -> NODEnsg2BChoice [label="YES"]
-    NODE1Qnw1Qtt -> NODE2GA [label="NO"]
-    NODEFollowColinChoice -> NODE3N [label="YES"]
-    NODEFollowColinChoice -> NODE3P [label="NO"]
-    NODE3C -> NODEnsgVisitHaynesChoice [label="VISIT DR. HAYNES"]
-    NODE3C -> NODEnsgFollowColinChoice [label="FOLLOW COLIN"]
-    NODE3C -> NODEnsgVisitHaynesChoice [label="VISIT DR. HAYNES"]
-    NODE3C -> NODEnsgFollowColinChoice [label="FOLLOW COLIN"]
-    NODE5AD -> NODE5AF [label="NO IDEA"]
-    NODE5AD -> NODE5AE [label="HE JUMPED"]
-    NODEVisitHaynesChoice -> NODE3U [label="BITE NAILS"]
-    NODEVisitHaynesChoice -> NODE3T [label="PULL EARLOBE"]
-    NODE3P -> NODE8L [label="STEFAN"]
-    NODE3P -> NODE3Q [label="COLIN"]
-    NODE3Z -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
-    NODE3Z -> NODEnsgBookChoice [label="PICK UP BOOK"]
-    NODE3S -> NODE8B [label="TAKE THEM"]
-    NODE3S -> NODEnsgFlushThemChoice3X [label="FLUSH THEM"]
-    NODEFlushThemChoice -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEFlushThemChoice -> NODE3Z [label="HIT DESK"]
-    NODEFlushThemChoice -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEFlushThemChoice -> NODE3Z [label="HIT DESK"]
-    NODEBookChoice -> NODE8J [label="TOY"]
-    NODEBookChoice -> NODEnsgPAXChoice [label="PAX"]
-    NODEBookChoice -> NODEnsgPAXChoice [label="PAX"]
-    NODEBookChoice -> NODEnsgPACStudyChoice [label="PAC"]
-    NODE5AG -> NODE5AH [label="LET HIM GO"]
-    NODE5AG -> NODE5AJ [label="KILL HIM"]
-    NODEBookChoice -> NODE8J [label="TOY"]
-    NODEBookChoice -> NODEnsgPACStudyChoice [label="PAC"]
-    NODEFlushThemChoice -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
-    NODEFlushThemChoice -> NODEnsgBookChoice [label="PICK UP BOOK"]
-    NODEFamilyPhotoChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEFamilyPhotoChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEFamilyPhotoChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEFamilyPhotoChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODE2BChoice -> NODENo [label="NO"]
-    NODEFamilyPhotoChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEFamilyPhotoChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEFamilyPhotoChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEFamilyPhotoChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODES37A -> NODESS560 [label="GET RABBIT FROM DAD"]
-    NODES37A -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODES37B -> NODESS560 [label="GET RABBIT FROM DAD"]
-    NODES37B -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODE5AD2 -> NODE5AF [label="NO IDEA"]
-    NODE5AD2 -> NODE5AE [label="HE JUMPED"]
-    NODE3Xxa_3Xxc -> NODE8B [label="THROW THEM AWAY"]
-    NODE3Xxa_3Xxc -> NODEnsgFlushThemChoice3X [label="FLUSH THEM"]
-    NODE7B -> NODE7C [label="TELL HIM MORE"]
-    NODE7B -> NODE7D [label="STOP THE CONVERSATION"]
-    NODE7A -> NODE7B [label="TELL HIM MORE"]
-    NODE7A -> NODE7B [label="TRY TO EXPLAIN"]
-    NODE3Xxa_3Xxc -> NODE8B [label="TAKE THEM"]
-    NODE3Xxa_3Xxc -> NODEnsgFlushThemChoice3X [label="FLUSH THEM"]
-    NODE3Ax -> NODE3B [label="THROW TEA OVER COMPUTER"]
-    NODE3Ax -> NODE3C [label="SHOUT AT DAD"]
-    NODEJFDChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEJFDChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODE7H -> NODE7K [label="KARATE CHOP DAD"]
-    NODE7H -> NODE7J [label="KICK HIM IN THE BALLS"]
-    NODE5V0 -> NODE5U [label="YES"]
-    NODE5V0 -> NODE5T [label="NO"]
-    NODESS7 -> NODESS550 [label="PICK UP PHOTO"]
-    NODESS7 -> NODE5H [label="KILL DAD"]
-    NODESS8 -> NODESS560 [label="GET RABBIT FROM DAD"]
-    NODESS8 -> NODE5H [label="KILL DAD"]
-    NODESS9 -> NODESS510 [label="FOLLOW COLIN"]
-    NODESS9 -> NODE5H [label="KILL DAD"]
-    NODESS3 -> NODESS560 [label="GET RABBIT FROM DAD"]
-    NODESS3 -> NODEnsgWhoThereChoice [label="WHO'S THERE?"]
-    NODESS4 -> NODESS510 [label="FOLLOW COLIN"]
-    NODESS4 -> NODEnsgWhoThereChoice [label="WHO'S THERE?"]
-    NODESS5 -> NODEnsgWhoThereChoice [label="WHO'S THERE?"]
-    NODESS6 -> NODESS500 [label="TALK ABOUT MUM"]
-    NODESS6 -> NODE5H [label="KILL DAD"]
-    NODESS110 -> NODEnsg8AChoice [label="ACCEPT"]
-    NODESS110 -> NODEnsg1Q_rewatch [label="REFUSE"]
-    NODESS1 -> NODESS500 [label="TALK ABOUT MUM"]
-    NODESS1 -> NODESS510 [label="FOLLOW COLIN"]
-    NODESS110 -> NODEnsg8AChoice [label="ACCEPT"]
-    NODESS110 -> NODEnsg1Q_rewatch [label="REFUSE"]
-    NODE5V_5VA -> NODEnsg5V0 [label="BURY BODY"]
-    NODE5V_5VA -> NODEnsg5V1 [label="CHOP UP BODY"]
-    NODESS2 -> NODESS550 [label="PICK UP PHOTO"]
-    NODESS2 -> NODEnsgWhoThereChoice [label="WHO'S THERE?"]
-    NODES36A -> NODESS550 [label="PICK UP PHOTO"]
-    NODES36A -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODES36B -> NODESS550 [label="PICK UP PHOTO"]
-    NODES36B -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODE6B -> NODE6C
-    NODE6B -> NODE6D
-    NODEendingSplitScreens -> NODEnsgSS520 [label="CHOP OR BURY?"]
-    NODEendingSplitScreens -> NODE0cr2 [label="EXIT TO CREDITS"]
-    NODELettersPACSChoice -> NODE6C
-    NODELettersPACSChoice -> NODE6D
-    NODEendingSplitScreens -> NODEnsgSS530 [label="CHOP OR BURY?"]
-    NODEendingSplitScreens -> NODE0cr2 [label="EXIT TO CREDITS"]
-    NODEendingSplitScreens -> NODEnsgWhoThereChoiceSS54 [label="WHO'S THERE?"]
-    NODEendingSplitScreens -> NODE0cr2 [label="EXIT TO CREDITS"]
-    NODEendingSplitScreens -> NODEnsgSS550 [label="PICK UP PHOTO"]
-    NODEendingSplitScreens -> NODE0cr2 [label="EXIT TO CREDITS"]
-    NODESS110 -> NODEnsg8AChoice [label="ACCEPT"]
-    NODESS110 -> NODEnsg1Q_rewatch [label="REFUSE"]
-    NODEendingSplitScreens -> NODEnsgSS560 [label="GET RABBIT FROM DAD"]
-    NODEendingSplitScreens -> NODE0cr2 [label="EXIT TO CREDITS"]
-    NODEFlushThemChoice -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEFlushThemChoice -> NODE3Z [label="HIT DESK"]
-    NODEendingSplitScreens -> NODER6 [label="'PROGRAM & CONTROL'"]
-    NODEendingSplitScreens -> NODE0cr2 [label="EXIT TO CREDITS"]
-    NODEFlushThemChoice -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEFlushThemChoice -> NODE3Z [label="HIT DESK"]
-    NODE1PA -> NODEnsg8AChoice [label="ACCEPT"]
-    NODE1PA -> NODEnsg1Q_rewatch [label="REFUSE"]
-    NODE1Qnw1Qtt -> NODEnsg2BChoice [label="YES"]
-    NODE1Qnw1Qtt -> NODE2GA [label="NO"]
-    NODEZ4cd -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEZ4cd -> NODE3Z [label="HIT DESK"]
-    NODEendingSplitScreens -> NODEnsgSS500 [label="TALK ABOUT MUM"]
-    NODEendingSplitScreens -> NODE0cr2 [label="EXIT TO CREDITS"]
-    NODEendingSplitScreens -> NODEnsgSS510 [label="FOLLOW COLIN"]
-    NODEendingSplitScreens -> NODE0cr2 [label="EXIT TO CREDITS"]
-    NODEWhoThereChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEWhoThereChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEBookChoice -> NODE8J [label="TOY"]
-    NODEBookChoice -> NODEnsgPACStudyChoice [label="PAC"]
-    NODEZ61d -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEZ61d -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEZ4 -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEZ4 -> NODE3Z [label="HIT DESK"]
-    NODEZ61c -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEZ61c -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEWhoThereChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEWhoThereChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEZ1 -> NODE3B [label="THROW TEA OVER COMPUTER"]
-    NODEZ1 -> NODE3C [label="SHOUT AT DAD"]
-    NODEWhoThereChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEWhoThereChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEWhoThereChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEWhoThereChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEBookChoice -> NODEnsgPAXChoice [label="PAX"]
-    NODEBookChoice -> NODEnsgPACStudyChoice [label="PAC"]
-    NODEBookChoice -> NODE8J [label="TOY"]
-    NODEBookChoice -> NODEnsgPAXChoice [label="PAX"]
-    NODEZE -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
-    NODEZE -> NODEnsgBookChoice [label="PICK UP BOOK"]
-    NODEZD -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
-    NODEZD -> NODEnsgBookChoice [label="PICK UP BOOK"]
-    NODEThrowTeaChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEThrowTeaChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEZB -> NODEnsg2BChoice [label="YES"]
-    NODEZB -> NODE2GA [label="NO"]
-    NODE1E -> NODE1H [label="THOMPSON TWINS"]
-    NODE1E -> NODE1G [label="NOW 2"]
-    NODEVisitHaynesChoice -> NODEnsgThrowThemChoice [label="THROW THEM AWAY"]
-    NODEVisitHaynesChoice -> NODEnsgFlushThemChoice3X [label="FLUSH THEM"]
-    NODE1D -> NODE1H [label="THOMPSON TWINS"]
-    NODE1D -> NODE1G [label="NOW 2"]
-    NODEVisitHaynesChoice -> NODE8B [label="TAKE THEM"]
-    NODEVisitHaynesChoice -> NODEnsgFlushThemChoice3X [label="FLUSH THEM"]
-    NODEBookChoice -> NODEnsgJFDChoice [label="JFD"]
-    NODEBookChoice -> NODEnsgPAXChoice [label="PAX"]
-    NODE1A -> NODE1E [label="SUGAR PUFFS"]
-    NODE1A -> NODE1D [label="FROSTIES"]
-    NODEThrowTeaChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEThrowTeaChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODE3C -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
-    NODE3C -> NODEnsgBookChoice [label="PICK UP BOOK"]
-    NODEFlushThemChoice -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEFlushThemChoice -> NODE3Z [label="HIT DESK"]
-    NODEFollowColinChoice -> NODE8L [label="STEFAN"]
-    NODEFollowColinChoice -> NODE3Q [label="COLIN"]
-    NODEBookChoice -> NODEnsgJFDChoice [label="JFD"]
-    NODEBookChoice -> NODEnsgPAXChoice [label="PAX"]
-    NODEFamilyPhotoChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEFamilyPhotoChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEFamilyPhotoChoice -> NODEnsgThrowTeaChoice [label="THROW TEA OVER COMPUTER"]
-    NODEFamilyPhotoChoice -> NODEnsgDestroyComputerChoice [label="DESTROY COMPUTER"]
-    NODEFamilyPhotoChoice -> NODEnsgThrowTeaChoice [label="THROW TEA OVER COMPUTER"]
-    NODEFamilyPhotoChoice -> NODEnsgDestroyComputerChoice [label="DESTROY COMPUTER"]
-    NODEFlushThemChoice -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
-    NODEFlushThemChoice -> NODEnsgBookChoice [label="PICK UP BOOK"]
-    NODEFamilyPhotoChoice -> NODEnsgThrowTeaChoice [label="THROW TEA OVER COMPUTER"]
-    NODEFamilyPhotoChoice -> NODEnsgDestroyComputerChoice [label="DESTROY COMPUTER"]
-    NODEFlushThemChoice -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEFlushThemChoice -> NODE3Z [label="HIT DESK"]
-    NODEPACStudyChoice -> NODEnsgThrowTeaChoice [label="THROW TEA OVER COMPUTER"]
-    NODEPACStudyChoice -> NODEnsgDestroyComputerChoice [label="DESTROY COMPUTER"]
-    NODEJFDChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEJFDChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODE2GA -> NODEnsg2BChoice [label="YES"]
-    NODE2GA -> NODEnsg2GChoice [label="NO"]
-    NODES38A -> NODER6 [label="'PROGRAM & CONTROL'"]
     NODES38A -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODES38B -> NODER6 [label="'PROGRAM & CONTROL'"]
-    NODES38B -> NODE0cr1 [label="EXIT TO CREDITS"]
-    NODEFamilyPhotoChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEFamilyPhotoChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODE2GChoice -> NODE3B [label="THROW TEA OVER COMPUTER"]
+    NODES59B -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODEVisitHaynesChoice -> NODE3U [label="BITE NAILS"]
     NODE2GChoice -> NODE3C [label="SHOUT AT DAD"]
-    NODEPAXChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEPAXChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEFlushThemChoice -> NODE3Y [label="DESTROY COMPUTER"]
-    NODEFlushThemChoice -> NODE3Z [label="HIT DESK"]
-    NODEPAXChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEPAXChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEPAXChoice -> NODEnsgThrowTeaChoice [label="THROW TEA OVER COMPUTER"]
-    NODEPAXChoice -> NODEnsgDestroyComputerChoice [label="DESTROY COMPUTER"]
-    NODEJFDChoice -> NODEnsgThrowTeaChoice [label="THROW TEA OVER COMPUTER"]
-    NODEJFDChoice -> NODEnsgDestroyComputerChoice [label="DESTROY COMPUTER"]
-    NODE8K -> NODEnsg8K0 [label="THROW TEA OVER COMPUTER"]
-    NODE8K -> NODEnsg8K1 [label="DESTROY COMPUTER"]
-    NODEFamilyPhotoChoice -> NODEnsgThrowTeaChoice [label="THROW TEA OVER COMPUTER"]
-    NODEFamilyPhotoChoice -> NODEnsgDestroyComputerChoice [label="DESTROY COMPUTER"]
-    NODE8J -> NODE8JA [label="YES"]
-    NODE8J -> NODEnsg8J1 [label="NO"]
-    NODEDestroyComputerChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
-    NODEDestroyComputerChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
-    NODEDestroyComputerChoice -> NODEnsgLettersPACSChoice [label="PACS"]
-    NODEDestroyComputerChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODE7B -> NODE7C [label="TELL HIM MORE"]
+    NODEZ4 -> NODE3Y [label="DESTROY COMPUTER"]
+    NODEVisitHaynesChoice -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
+    NODE3P -> NODE8L [label="STEFAN"]
+    NODE1D -> NODE1G [label="NOW 2"]
+    NODE7D -> NODEYeah [label="YES"]
+    NODE3Xxa_3Xxc -> NODEnsgFlushThemChoice3X [label="FLUSH THEM"]
+    NODE1S -> NODE3B [label="THROW TEA OVER COMPUTER"]
+    NODE3S -> NODEnsgFlushThemChoice3X [label="FLUSH THEM"]
+    NODES36B -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODE2BChoice -> NODE1S [label="THE BERMUDA TRIANGLE"]
+    NODES35B -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODE7A -> NODE7B [label="TRY TO EXPLAIN"]
     NODE5V_5VA -> NODEnsg5V0 [label="BURY BODY"]
+    NODE5AG2 -> NODE5AJ [label="KILL HIM"]
+    NODE7D -> NODE7H [label="FIGHT HER"]
+    NODE2GChoice -> NODE3B [label="THROW TEA OVER COMPUTER"]
+    NODEZ4cd -> NODE3Y [label="DESTROY COMPUTER"]
+    NODE1D -> NODE1H [label="THOMPSON TWINS"]
+    NODE2BChoice -> NODENo [label="NO"]
+    NODE1H -> NODEnsg1Qnw1Qtt [label="REFUSE"]
+    NODES36B -> NODESS550 [label="PICK UP PHOTO"]
+    NODEPAXChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
+    NODE1G -> NODEnsg1Qnw1Qtt [label="REFUSE"]
+    NODE8J1 -> NODEnsgLettersPACSChoice [label="PACS"]
+    NODE7H -> NODE7K [label="KARATE CHOP DAD"]
+    NODEZD -> NODEnsgBookChoice [label="PICK UP BOOK"]
+    NODE5V0 -> NODE5TA [label="NO"]
+    NODE3C -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
+    NODEFlushThemChoice -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
+    NODESS110 -> NODEnsg8AChoice [label="ACCEPT"]
+    NODES37B -> NODESS560 [label="GET RABBIT FROM DAD"]
+    NODEZ1 -> NODE3B [label="THROW TEA OVER COMPUTER"]
+    NODEWhiteBearChoice -> NODE5H [label="KILL DAD"]
+    NODEVisitHaynesChoice -> NODE3Y [label="DESTROY COMPUTER"]
+    NODE7D -> NODEFYeah [label="FUCK YEAH"]
+    NODES34A -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODEJFDChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODE3P -> NODE3Q [label="COLIN"]
+    NODEPACStudyChoice -> NODEnsgDestroyComputerChoice [label="DESTROY COMPUTER"]
+    NODE3Vx -> NODE3Y [label="DESTROY COMPUTER"]
+    NODESS110 -> NODEnsg1Q_rewatch [label="REFUSE"]
+    NODE5V0 -> NODE5UA [label="YES"]
+    NODE2GChoice -> NODE1R [label="PHAEDRA"]
+    NODES35B -> NODEnsgWhoThereChoice [label="WHO'S THERE?"]
+    NODEThrowTeaChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
+    NODEPAXChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODE7H -> NODE7J [label="KICK HIM IN THE BALLS"]
+    NODE3Z -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
+    NODEWhiteBearChoice -> NODE5G [label="BACK OFF"]
+    NODE1Qnw1Qtt -> NODEnsg2BChoice [label="YES"]
     NODE5V_5VA -> NODEnsg5V1 [label="CHOP UP BODY"]
+    NODE3Xxa_3Xxc -> NODE8B [label="TAKE THEM"]
+    NODEPACStudyChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
+    NODE1A -> NODE1E [label="SUGAR PUFFS"]
+    NODES37A -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODEJFDChoice -> NODEnsgThrowTeaChoice [label="THROW TEA OVER COMPUTER"]
+    NODEThrowTeaChoice -> NODEnsgLettersPACSChoice [label="PACS"]
+    NODEFamilyPhotoChoice -> NODEnsgThrowTeaChoice [label="THROW TEA OVER COMPUTER"]
+    NODE1R -> NODE3B [label="THROW TEA OVER COMPUTER"]
+    NODE5AD2 -> NODE5AF [label="NO IDEA"]
+    NODEWhoThereChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODEPACStudyChoice -> NODEnsgLettersPACSChoice [label="PACS"]
+    NODE8J1 -> NODE7A [label="THE NETFLIX 'N' LOGO"]
+    NODELettersPACSChoice -> NODE6D
+    NODEFollowColinChoice -> NODE8L [label="STEFAN"]
+    NODES38B -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODE1E -> NODE1G [label="NOW 2"]
+    NODE3C -> NODEnsgVisitHaynesChoice [label="VISIT DR. HAYNES"]
+    NODEPAXChoice -> NODEnsgLettersPACSChoice [label="PACS"]
+    NODEVisitHaynesChoice -> NODE8B [label="TAKE THEM"]
+    NODE2BChoice -> NODE3C [label="SHOUT AT DAD"]
+    NODE5AD2 -> NODE5AE [label="HE JUMPED"]
+    NODE3Ax -> NODE3C [label="SHOUT AT DAD"]
+    NODEZ4 -> NODE3Z [label="HIT DESK"]
+    NODE2GA -> NODEnsg2BChoice [label="YES"]
+    NODEVisitHaynesChoice -> NODE3T [label="PULL EARLOBE"]
+    NODE7A -> NODE7B [label="TELL HIM MORE"]
+    NODEPAXChoice -> NODEnsgDestroyComputerChoice [label="DESTROY COMPUTER"]
+    NODEZE -> NODEnsgBookChoice [label="PICK UP BOOK"]
+    NODE3Vx -> NODE3Z [label="HIT DESK"]
+    NODEFollowColinChoice -> NODE3P [label="NO"]
+    NODEFamilyPhotoChoice -> NODEnsgDestroyComputerChoice [label="DESTROY COMPUTER"]
+    NODES37A -> NODESS560 [label="GET RABBIT FROM DAD"]
+    NODE7D -> NODE7L [label="LEAP THROUGH THE WINDOW"]
+    NODE3C -> NODEnsgFollowColinChoice [label="FOLLOW COLIN"]
+    NODEDestroyComputerChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
+    NODES59B -> NODEnsgS59B0 [label="CHOP OR BURY?"]
+    NODE5AG -> NODE5AH [label="LET HIM GO"]
+    NODES59A -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODES44B -> NODESS500 [label="TALK ABOUT MUM"]
+    NODES37B -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODEZ62d -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODE1QA -> NODE3C [label="SHOUT AT DAD"]
+    NODEBookChoice -> NODEnsgJFDChoice [label="JFD"]
+    NODES38B -> NODER6 [label="'PROGRAM & CONTROL'"]
+    NODEFollowColinChoice -> NODE3Q [label="COLIN"]
+    NODEDestroyComputerChoice -> NODEnsgLettersPACSChoice [label="PACS"]
+    NODE8J -> NODEnsg8J1 [label="NO"]
+    NODEZ61c -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODE3S -> NODEnsgThrowThemChoice [label="THROW THEM AWAY"]
+    NODE5AG -> NODE5AJ [label="KILL HIM"]
+    NODE1S -> NODE3C [label="SHOUT AT DAD"]
+    NODEBookChoice -> NODEnsgPAXChoice [label="PAX"]
+    NODE2BChoice -> NODE3B [label="THROW TEA OVER COMPUTER"]
+    NODEFlushThemChoice -> NODEnsgBookChoice [label="PICK UP BOOK"]
+    NODEVisitHaynesChoice -> NODEnsgFlushThemChoice3X [label="FLUSH THEM"]
+    NODE8K -> NODEnsg8K0 [label="THROW TEA OVER COMPUTER"]
+    NODE1Qnw1Qtt -> NODE2GA [label="NO"]
+    NODEFlushThemChoice -> NODE3Y [label="DESTROY COMPUTER"]
+    NODE6B -> NODE6C
+    NODES44B -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODEWhoThereChoice -> NODEnsgLettersPACSChoice [label="PACS"]
+    NODEZ62c -> NODE7A [label="THE NETFLIX 'N' LOGO"]
+    NODE8K -> NODEnsg8K1 [label="DESTROY COMPUTER"]
+    NODE2BChoice -> NODE1R [label="PHAEDRA"]
+    NODEWhoThereChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
+    NODEZ4cd -> NODE3Z [label="HIT DESK"]
+    NODEZD -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
+    NODE1PA -> NODEnsg1Q_rewatch [label="REFUSE"]
+    NODE1QA -> NODE3B [label="THROW TEA OVER COMPUTER"]
+    NODEVisitHaynesChoice -> NODE3Z [label="HIT DESK"]
+    NODE2GChoice -> NODE1S [label="THE BERMUDA TRIANGLE"]
+    NODE1H -> NODEnsg8AChoice [label="ACCEPT"]
+    NODEFamilyPhotoChoice -> NODEnsgLettersPACSChoice [label="PACS"]
+    NODEZ61c -> NODEnsgLettersPACSChoice [label="PACS"]
+    NODE8J1 -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODEZ61d -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODE5AD -> NODE5AF [label="NO IDEA"]
+    NODEZB -> NODE2GA [label="NO"]
+    NODEDestroyComputerChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODE3Nx -> NODE3Q [label="COLIN"]
+    NODE3Z -> NODEnsgBookChoice [label="PICK UP BOOK"]
+    NODEZE -> NODEnsgFamilyPhotoChoice [label="PICK UP FAMILY PHOTO"]
+    NODEFollowColinChoice -> NODE3N [label="YES"]
+    NODE7B -> NODE7D [label="STOP THE CONVERSATION"]
+    NODES35A -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODE1R -> NODE3C [label="SHOUT AT DAD"]
+    NODEThrowTeaChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODEFamilyPhotoChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODEBookChoice -> NODE8J [label="TOY"]
+    NODES38A -> NODER6 [label="'PROGRAM & CONTROL'"]
+    NODEVisitHaynesChoice -> NODEnsgBookChoice [label="PICK UP BOOK"]
+    NODEPAXChoice -> NODEnsgThrowTeaChoice [label="THROW TEA OVER COMPUTER"]
+    NODEPACStudyChoice -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODE3N -> NODE8L [label="STEFAN"]
+    NODEPACStudyChoice -> NODEnsgThrowTeaChoice [label="THROW TEA OVER COMPUTER"]
+    NODES44A -> NODESS500 [label="TALK ABOUT MUM"]
+    NODES59A -> NODEnsgS59A0 [label="CHOP OR BURY?"]
+    NODES35A -> NODEnsgWhoThereChoice [label="WHO'S THERE?"]
+    NODE5V0 -> NODE5T [label="NO"]
+    NODEJFDChoice -> NODE7A [label="THE NETFLIX 'N' LOGO"]
+    NODEJFDChoice -> NODEnsgLettersPACSChoice [label="PACS"]
+    NODE3Xxa_3Xxc -> NODE8B [label="THROW THEM AWAY"]
+    NODEZ1 -> NODE3C [label="SHOUT AT DAD"]
+    NODE3C -> NODEnsgBookChoice [label="PICK UP BOOK"]
+    NODELettersPACSChoice -> NODE6C
+    NODE1PA -> NODEnsg8AChoice [label="ACCEPT"]
+    NODE3Nx -> NODE8L [label="STEFAN"]
+    NODES34B -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODEZ62d -> NODE7A [label="THE NETFLIX 'N' LOGO"]
+    NODES34B -> NODESS510 [label="FOLLOW COLIN"]
+    NODE1G -> NODEnsg8AChoice [label="ACCEPT"]
+    NODES36A -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODE1A -> NODE1D [label="FROSTIES"]
+    NODES36A -> NODESS550 [label="PICK UP PHOTO"]
+    NODE1E -> NODE1H [label="THOMPSON TWINS"]
+    NODEZB -> NODEnsg2BChoice [label="YES"]
+    NODE2GA -> NODEnsg2GChoice [label="NO"]
+    NODEVisitHaynesChoice -> NODEnsgThrowThemChoice [label="THROW THEM AWAY"]
+    NODE5AD -> NODE5AE [label="HE JUMPED"]
+    NODEZ61d -> NODEnsgLettersPACSChoice [label="PACS"]
+    NODE3N -> NODE3Q [label="COLIN"]
+    NODE5V0 -> NODE5U [label="YES"]
+    NODE3Ax -> NODE3B [label="THROW TEA OVER COMPUTER"]
+    NODE5AG2 -> NODE5AH [label="LET HIM GO"]
+    NODE3S -> NODE8B [label="TAKE THEM"]
+    NODE6B -> NODE6D
+    NODEJFDChoice -> NODEnsgDestroyComputerChoice [label="DESTROY COMPUTER"]
+    NODE8J -> NODE8JA [label="YES"]
+    NODEZ62c -> NODEnsgWhiteBearChoice [label="'WHITE BEAR' GLYPH"]
+    NODEBookChoice -> NODEnsgPACStudyChoice [label="PAC"]
+    NODES44A -> NODE0cr1 [label="EXIT TO CREDITS"]
+    NODES34A -> NODESS510 [label="FOLLOW COLIN"]
 
 }
