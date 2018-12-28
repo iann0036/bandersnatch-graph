@@ -1,2 +1,5 @@
-# bandersnatch-graph
-Graphing all possibilities in the Netflix Black Mirror episode, "Bandersnatch"
+# "Bandersnatch" Graph
+
+> Graphing all possibilities in the Netflix Black Mirror episode, "Bandersnatch"
+
+![graph](output.png)
