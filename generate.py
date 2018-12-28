@@ -8,6 +8,15 @@ with open('jsonGraph.json') as f:
 
 choice_points = raw_data['jsonGraph']['videos']['80988062']['interactiveVideoMoments']['value']['choicePointNavigatorMetadata']['choicePointsMetadata']['choicePoints']
 moments_by_segment = raw_data['jsonGraph']['videos']['80988062']['interactiveVideoMoments']['value']['momentsBySegment']
+segment_groups = raw_data['jsonGraph']['videos']['80988062']['interactiveVideoMoments']['value']['segmentGroups']
+
+def sgnode(node):
+    for sg_key, sg in segment_groups.items():
+        if all(isinstance(item, str) for item in sg):
+            if node in sg:
+                return sg_key.replace("-","")
+    
+    return node.replace("-","")
 
 pprint.pprint(choice_points)
 pprint.pprint(moments_by_segment)
@@ -21,10 +30,10 @@ for cp_key, cp in choice_points.items():
     if 'image' in cp:
         url = cp['image']['styles']['backgroundImage'][4:-1]
         
-        urllib.request.urlretrieve(url, "%s.webp" % cp_key)
-        os.system('/usr/local/bin/convert %s.webp %s.png' % (cp_key, cp_key))
+        #urllib.request.urlretrieve(url, "%s.webp" % cp_key)
+        #os.system('/usr/local/bin/convert %s.webp %s.png' % (cp_key, cp_key))
 
-    dot_output += "    NODE%s [label=<<TABLE><TR><TD><IMG SRC=\"%s.png\"/></TD></TR><TR><TD>%s</TD></TR></TABLE>>, fillcolor=white, style=filled];\n" % (cp_key.replace("-",""), cp_key, cp['description'])
+    dot_output += "    NODE%s [label=<<TABLE><TR><TD><IMG SRC=\"%s.png\"/></TD></TR><TR><TD>%s</TD></TR></TABLE>>, fillcolor=white, style=filled];\n" % (sgnode(cp_key), cp_key, cp['description'])
     pprint.pprint(cp)
 
 dot_output += "\n"
@@ -37,9 +46,9 @@ for mbs_key, mbs in moments_by_segment.items():
                     sid = choice['segmentId']
 
                 if 'text' in choice:
-                    dot_output += "    NODE%s -> NODE%s [label=\"%s\"]\n" % (mbs_key.replace("-",""), sid.replace("-",""), choice['text'])
+                    dot_output += "    NODE%s -> NODE%s [label=\"%s\"]\n" % (sgnode(mbs_key), sgnode(sid), choice['text'])
                 else:
-                    dot_output += "    NODE%s -> NODE%s\n" % (mbs_key.replace("-",""), sid.replace("-",""))
+                    dot_output += "    NODE%s -> NODE%s\n" % (sgnode(mbs_key), sgnode(sid))
 
 dot_output += "\n}"
 
